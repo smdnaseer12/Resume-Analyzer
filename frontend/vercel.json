@@ -20,11 +20,6 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://resume-analyzer-backend.onrender.com"
-  },
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
+    "REACT_APP_API_URL": "https://your-backend-app-name.onrender.com"
   }
 } 
