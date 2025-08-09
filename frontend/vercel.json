@@ -20,6 +20,6 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://your-backend-app-name.onrender.com"
+    "REACT_APP_API_URL": "https://resume-analyzer-backend.onrender.com"
   }
 } 
