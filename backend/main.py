@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 import PyPDF2
-import spacy
 import io
 import json
 from datetime import datetime
@@ -32,13 +31,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load SpaCy model
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    print("Downloading SpaCy model...")
-    spacy.cli.download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
+# Simple text processing without SpaCy
 
 class ResumeAnalysis(BaseModel):
     skills: List[str]
