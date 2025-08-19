@@ -23,8 +23,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://*.vercel.app",
-        "https://*.onrender.com"
+        "https://resume-analyzer-sable-zeta.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
