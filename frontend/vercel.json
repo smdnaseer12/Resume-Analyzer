@@ -20,6 +20,6 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://resume-analyzer-861u.onrender.com"
+    "REACT_APP_API_URL": "https://resume-analyzer-1-00ea.onrender.com"
   }
 } 
